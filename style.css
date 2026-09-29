@@ -1,11 +1,11 @@
 @font-face {
-    font-family: lavish;
+    font-family: 'lavish';
     src: url(Fonts/LavishlyYours-Regular.ttf) format('truetype');
     font-weight: 800;
     font-size:90px;
 }
 @font-face {
-    font-family: forbody;
+    font-family: 'forbody';
     src: url(Fonts/EduQLDHand-VariableFont_wght.ttf) format('truetype');
 }
 a{
