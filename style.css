@@ -8,7 +8,7 @@
     font-family: 'forbody';
     src: url(Fonts/EduQLDHand-VariableFont_wght.ttf) format('truetype');
 }
-a{
+.normallink{
     /* align-content: center */
     text-align: center;
 }
@@ -17,7 +17,7 @@ body{
     background-color: rgb(0, 0, 66);
     color: antiquewhite;
 }
-a:link, a:visited {
+.normallink:link, .normallink:visited {
     background-color: rgb(0, 49, 78);
     color:beige;
     display: inline-block;
@@ -26,7 +26,7 @@ a:link, a:visited {
     text-decoration: none;
     border: 4px solid rgb(152, 152, 28);
 }
-a:hover {
+.normallink:hover {
     background-color:rgb(42, 91, 165);
     color: blanchedalmond;
     display: inline-block;
@@ -34,7 +34,7 @@ a:hover {
     border: 4px solid yellowgreen;
     text-decoration: dotted;
 }
-a:active {
+.normallink:active {
     background-color: rgb(42, 91, 165);
     color: pink;
     display: inline-block;
@@ -97,4 +97,7 @@ ul{
 }
 q{
     font-family: forbody;
+}
+#ditelink {
+    text-decoration: none;
 }
