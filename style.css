@@ -66,8 +66,6 @@ a:active {
 }
 img {
     float:right;
-    max-width: 100%;
-    height: auto    ;
 }
 ul{
     list-style-type:disc;
