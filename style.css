@@ -1,3 +1,13 @@
+@font-face {
+    font-family: lavish;
+    src: url(Fonts/LavishlyYours-Regular.ttf) format('truetype');
+    font-weight: 800;
+    font-size:90px;
+}
+@font-face {
+    font-family: forbody;
+    src: url(Fonts/EduQLDHand-VariableFont_wght.ttf) format('truetype');
+}
 a{
     /* align-content: center */
     text-align: center;
@@ -77,19 +87,11 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
 }
-@font-face {
-    font-family: lavish;
-    src: url(Fonts/LavishlyYours-Regular.ttf) format('truetype');
-    font-weight: 800;
-    font-size:90px;
-}
+
 #newfont {
     font-family: lavish;
 }
-@font-face {
-    font-family: forbody;
-    src: url(Fonts/EduQLDHand-VariableFont_wght.ttf) format('truetype');
-}
+
 #welcomefont{
     font-family: forbody;
 }
