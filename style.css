@@ -8,6 +8,10 @@
     font-family: 'forbody';
     src: url(Fonts/EduQLDHand-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'royal';
+    src: url(Fonts/Highcrest.ttf) format('truetype');
+}
 .normallink{
     /* align-content: center */
     text-align: center;
@@ -48,14 +52,22 @@ body{
     /* padding: 0px 50px 0px; */
     /* margin: 50px 0px 50px; */
 
-.first {
+#ch1{
     padding: 20px 50px 10px;
     /* background-color: bisque; */
     text-align: center;
 
 }
+.first {
+    text-align: left;
+    padding: 20px;
+}
 #sec {
     text-align: center;
+
+}
+#ch1id {
+    color: aliceblue;
 
 }
 #up {
@@ -102,4 +114,24 @@ q{
 }
 #ditelink {
     text-decoration: none;
+}
+#royal {
+    font-family: royal;
+    font-size: xx-large;
+    font-style: oblique;
+    color: goldenrod;
+}
+#arrowlist {
+    list-style-type: none;
+}
+#arrowlist li {
+    padding-left: 20px;
+}
+#arrowlist li::before {
+    content: "▶";
+    padding-right: 10px;
+}
+.nodeco {
+    font-style: italic;
+    color: aliceblue;
 }
