@@ -85,3 +85,23 @@ body{
     text-decoration: dotted;
     padding: 10px 10px;
 }
+#topnav {
+    border-bottom: 10px solid rgb(0, 0, 51);
+    background-image: url(Images/headimage.gif);
+    width:100vw; 
+    padding: 0px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#newfont {
+    font-family: lavish;
+}
+
+#welcomefont{
+    font-family: forbody;
+}
+q{
+    font-family: forbody;
+}
