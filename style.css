@@ -115,7 +115,7 @@ q{
 #ditelink {
     text-decoration: none;
 }
-#royal {
+.royal {
     font-family: royal;
     font-size: xx-large;
     font-style: oblique;
